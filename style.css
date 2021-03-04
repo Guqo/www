@@ -53,3 +53,7 @@ abbr {
 abbr:hover {
     color: rgb(155, 0, 0); 
 }
+
+.otazka {
+    font-size: 23px;
+}
