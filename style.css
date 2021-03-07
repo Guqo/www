@@ -1,10 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 body {
-    font-size: 22.5px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
-    background-image: linear-gradient(160deg, #2980b9, #8e44ad);
+    background-image: linear-gradient(160deg, #2e86de, #5f27cd);
     min-width: 100vh;
 }
 
@@ -15,7 +16,7 @@ header {
     margin: 10px;
     border: 2px black solid;
     border-radius: 5px;
-    background-image: linear-gradient(160deg, #ecf0f1, #bdc3c7);
+    background-image: linear-gradient(160deg, #ffffff, #e0e0e0);
 }
 
 main {
@@ -23,7 +24,7 @@ main {
     padding: 10px;
     border: 2px black solid;
     border-radius: 5px;
-    background-image: linear-gradient(160deg, #ecf0f1, #bdc3c7);
+    background-image: linear-gradient(160deg, #ffffff, #e0e0e0);
 }
 
 footer {
@@ -31,7 +32,7 @@ footer {
     padding: 10px;
     border: 2px black solid;
     border-radius: 5px;
-    background-image: linear-gradient(160deg, #ecf0f1, #bdc3c7);
+    background-image: linear-gradient(160deg, #ffffff, #e0e0e0);
 }
 
 a {
@@ -47,13 +48,46 @@ a:active {
 }
 
 abbr {
-    color: red;
+    color: rgb(194, 0, 0);
 }
 
 abbr:hover {
-    color: rgb(155, 0, 0); 
+    color: rgb(133, 0, 0);
 }
 
 .otazka {
-    font-size: 23px;
+    font-size: 22.5px;
+    background-color: lightgrey;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.odpoved {}
+
+.tabulka {
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+td {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+th {
+    background-color: rgb(153, 153, 153);
+    font-size: 22px;
+    padding: 2px;
+}
+
+.grey {
+    background-color: lightgray;
+}
+
+.cookie {
+    width: 50%;
+    margin-left: 250px;
+    margin-top: 20px;
 }
