@@ -88,3 +88,27 @@ th {
     margin-left: 250px;
     margin-top: 20px;
 }
+
+ul a {
+    color: rgb(0, 138, 108);
+}
+
+ul a:hover {
+    color: rgb(0, 99, 77);
+}
+
+ul a:active {
+    color: rgb(0, 51, 40);
+}
+
+.a-abbr {
+    color: blue;
+}
+
+.a-abbr a:hover {
+    color: rgb(0, 0, 189);
+}
+
+.a-abbr a:active {
+    color: rgb(0, 0, 131);
+}
